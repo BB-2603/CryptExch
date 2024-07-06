@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  margin-top: -2vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -12vw;
+}
+
+.logoname {
+  font-size: 4vh;
+  margin-left: 1vw;
+}
+
+.Nav {
+  background-color: rgb(24, 24, 24);
+  display: flex;
+  color: beige;
+  align-items: center;
+  justify-content: center;
+}
+
+.Nav ul {
+  margin-left: 20vw;
+  display: flex;
+  list-style: none;
+}
+
+.Nav ul li {
+  font-size: 1.2vw;
+  margin: 2vw;
+}
+
+#LoginBtn {
+  display: flex;
+  margin-top: -0.2vw;
+  color: beige;
+  font-size: 1vw;
+  border: none;
+  border-radius: 1.5vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #b37d5f;
+  width: 7.5vw;
+  height: 5vh;
+}
+
+#LoginBtn:hover {
+  color: rgb(238, 238, 180);
+
+  background-color: #b46a42;
+}

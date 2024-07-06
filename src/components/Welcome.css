@@ -1,0 +1,204 @@
+.outer {
+  background-color: rgb(24, 24, 24);
+  display: flex;
+  color: beige;
+  align-items: left;
+  justify-content: center;
+  height: 100vh;
+}
+
+.left {
+  display: flex;
+  margin-top: -10vh;
+  flex-direction: column;
+  height: 100vh;
+  width: 40vw;
+  align-items: center;
+  justify-content: center;
+}
+.headline {
+  display: flex;
+  flex-direction: column;
+  font-size: 6vh;
+  margin-left: 5vw;
+}
+
+.Intro {
+  display: flex;
+  margin-top: 2vh;
+  width: 29vw;
+  flex-direction: column;
+  font-size: 2.5vh;
+}
+
+.WalletConnect {
+  display: flex;
+  margin-top: 2.5vw;
+  color: beige;
+  font-size: 1.5vw;
+  border: none;
+  border-radius: 1.5vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #b37d5f;
+  width: 29vw;
+  height: 8vh;
+}
+
+.WalletConnect:hover {
+  color: rgb(238, 238, 180);
+  background-color: #b46a42;
+}
+
+.table {
+  display: flex;
+  margin-top: 10vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.entity {
+  border: 0.1vh solid whitesmoke;
+  width: 19vh;
+  height: 9vh;
+  font-size: 2.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rel {
+  border-top-left-radius: 1.5vh;
+}
+
+.eth {
+  border-top-right-radius: 1.5vh;
+}
+
+.web {
+  border-bottom-left-radius: 1.5vh;
+}
+
+.bkt {
+  border-bottom-right-radius: 1.5vh;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: top;
+  width: 50vw;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 3vh;
+  margin: 3vh;
+  border-radius: 2vh;
+  margin-left: 15vh;
+  height: 25vh;
+  width: 30vw;
+  align-items: top;
+  justify-content: left;
+  background-color: #7e1422;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.5vh solid whitesmoke;
+  height: 6vh;
+  width: 6vh;
+  border-radius: 8vh;
+}
+
+.walletAddress {
+  margin-top: 12vh;
+  margin-left: 3vw;
+}
+
+.WalletConnect:disabled {
+  background-color: #f2ecec53;
+  color: rgb(202, 204, 204);
+}
+
+.infoGain {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 3vh;
+  margin: 3vh;
+  border-radius: 2vh;
+  margin-left: 15vh;
+  justify-content: top;
+  height: 50vh;
+  width: 30vw;
+  background-color: #7e1422;
+}
+
+.info input {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  width: 27vw;
+  font-size: 2.2vh;
+  height: 5vh;
+  border-radius: 1vh;
+  margin: 2vh;
+  background-color: #e411115b;
+  color: rgb(238, 238, 180);
+  padding: 0.8vh;
+  padding-left: 1.5vh;
+  border: 0vh;
+}
+
+.info input::placeholder {
+  color: rgb(238, 238, 180);
+  font-size: 2vh;
+  opacity: 0.5;
+}
+
+.line {
+  width: 28vw;
+  height: 0vh;
+  border: 0.25vh solid rgb(238, 238, 180);
+  margin: 2vh;
+  border-radius: 0.25vh;
+  margin-left: 2vh;
+}
+.sendEth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+}
+
+.sendEth button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 27vw;
+  height: 7vh;
+  margin: 2vh;
+  margin-top: 3vh;
+  font-size: 2.5vh;
+  background-color: #e411115b;
+  border: 0vh solid whitesmoke;
+  border-radius: 1.5vh;
+  color: rgb(238, 238, 180);
+}
+
+.sendEth button:hover {
+  background-color: #e4111194;
+  color: rgb(245, 245, 139);
+}

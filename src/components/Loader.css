@@ -1,0 +1,6 @@
+.loader {
+  display: flex;
+  background-color: aqua;
+  width: 5vw;
+  height: 100vh;
+}
